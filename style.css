@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+body > * {
+    border: 1px gray solid;
+}
+
+header {
+    grid-area: 1 / 2 / 1 / -1;
+}
+
+.navigation{
+    grid-area: 1 / 1 / -1 / 2;
+}
